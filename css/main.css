@@ -1,0 +1,22 @@
+#itemList {
+  list-style: none;
+  padding-left: 0;
+}
+
+#itemList li {
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  width:200px;
+}
+
+#itemList li:first-child {
+  border-top: 0;
+}
+
+.completed {
+  text-decoration:line-through;
+}
+
+.delete {
+  margin-left: 50px;
+}
